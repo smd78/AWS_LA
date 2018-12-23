@@ -1,2 +1,2 @@
-#-------netowrking/outputs.tf-----------
+#-------networking/outputs.tf-----------
 

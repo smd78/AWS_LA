@@ -1,6 +1,13 @@
-variable "aws_region" {
-  
+#------------root/var.tf
+
+variable "aws_region" {}
+
+variable "project_name" {}
+
+variable "vpc_cidr" {}
+
+variable "public_cidrs" {
+    type = "list"
 }
-variable "project_name" {
-  
-}
+
+variable "accessip" {}
