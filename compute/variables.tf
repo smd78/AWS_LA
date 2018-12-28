@@ -1,11 +1,7 @@
 #-----compute/var.tf
-variable "key_name" {
-  default = "tfkey"
-}
+variable "key_name" {}
 
-variable "public_key_path" {
-  default = "c:\\users\\stuart\\.ssh\\id_rsa.pub"
-}
+variable "public_key_path" {}
 
 variable "subnet_ips" {
   type = "list"
