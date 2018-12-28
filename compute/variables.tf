@@ -13,4 +13,6 @@ variable "instance_type" {}
 
 variable "security_group" {}
 
-variable "subnets" {}
+variable "subnets" {
+  type = "list"
+}
