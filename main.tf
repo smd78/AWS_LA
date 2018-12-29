@@ -1,4 +1,12 @@
 #--------root/main.tf
+terraform {
+  backend "s3" {
+    bucket         = "stuterraform"
+    key            = "terraform/terraform.tfstate"
+    region         = "eu-central-1"
+    dynamodb_table = "stuterraform"
+  }
+}
 
 provider "aws" {
   region = "${var.aws_region}"

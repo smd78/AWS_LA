@@ -17,7 +17,6 @@ output "Public Security Group" {
   value = "${module.networking.public_sg}"
 }
 
-
 #------Compute Outputs
 
 output "Public Instance IDs" {
